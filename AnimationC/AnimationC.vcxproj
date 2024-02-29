@@ -141,6 +141,7 @@
   <ItemGroup>
     <ClInclude Include="Application.h" />
     <ClInclude Include="Attribute.h" />
+    <ClInclude Include="Clip.h" />
     <ClInclude Include="Draw.h" />
     <ClInclude Include="Frame.h" />
     <ClInclude Include="IndexBuffer.h" />
@@ -153,12 +154,14 @@
     <ClInclude Include="mat2.h" />
     <ClInclude Include="mat3.h" />
     <ClInclude Include="mat4.h" />
+    <ClInclude Include="Pose.h" />
     <ClInclude Include="quat.h" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="Shader.h" />
     <ClInclude Include="Texture.h" />
     <ClInclude Include="Track.h" />
     <ClInclude Include="Transform.h" />
+    <ClInclude Include="TransformTrack.h" />
     <ClInclude Include="Uniform.h" />
     <ClInclude Include="vec2.h" />
     <ClInclude Include="vec3.h" />
@@ -167,6 +170,7 @@
   <ItemGroup>
     <ClCompile Include="Application.cpp" />
     <ClCompile Include="Attribute.cpp" />
+    <ClCompile Include="Clip.cpp" />
     <ClCompile Include="Draw.cpp" />
     <ClCompile Include="Frame.cpp" />
     <ClCompile Include="IndexBuffer.cpp" />
@@ -178,11 +182,13 @@
     <ClCompile Include="mat2.cpp" />
     <ClCompile Include="mat3.cpp" />
     <ClCompile Include="mat4.cpp" />
+    <ClCompile Include="Pose.cpp" />
     <ClCompile Include="quat.cpp" />
     <ClCompile Include="Shader.cpp" />
     <ClCompile Include="Texture.cpp" />
     <ClCompile Include="Track.cpp" />
     <ClCompile Include="Transform.cpp" />
+    <ClCompile Include="TransformTrack.cpp" />
     <ClCompile Include="Uniform.cpp" />
     <ClCompile Include="vec3.cpp" />
     <ClCompile Include="WinMain.cpp" />
